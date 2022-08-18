@@ -3,6 +3,7 @@ import '../Styles/Navbar.css'
 
 
 const Navbar = () => {
+  
     return (
        <nav className="navbar">
            <ul>

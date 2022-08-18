@@ -1,6 +1,18 @@
+import { useState } from 'react';
 import '../Styles/Contact.css'
 
 const Contact = () => {
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [subject, setSubject] = useState('')
+    const [message, setMessage] = useState('')
+ 
+
+    const handleSubmit = (e) =>{
+        e.preventDefault()
+        alert('message sent')
+    }
+
     return (
         <div className="contact">
            <header>
@@ -18,10 +30,6 @@ const Contact = () => {
                 <p>:Toyymat@gmail.com</p>
               </div>
               <div>
-                  <p>Education</p>
-                  <p>:Federal university of Technology, Akure</p>
-              </div>
-              <div>
                   <p>Mobile Number</p>
                   <p>:08121929737</p>
               </div>
@@ -30,14 +38,13 @@ const Contact = () => {
                <a href='https://github.com/Toymat01'>LinkedIn</a>
                <a href="https://github.com/Toymat01">Github</a>
             </div>
-            <form >
-                <input type="text" placeholder='YOUR NAME' />
-                <input type="text" placeholder='YOUR EMAIL' />
-                <input type="text" placeholder='ENTER SUBJECT' />
-                <textarea  placeholder='message here...'/>
+            <form onSubmit={handleSubmit}>
+                <input type="text" placeholder='YOUR NAME' value={name} onChange={e => setName(e.target.value)}/>
+                <input type="text" placeholder='YOUR EMAIL' value={email} onChange={e => setEmail(e.target.value)}/>
+                <input type="text" placeholder='ENTER SUBJECT' value={subject}  onChange={e => setSubject(e.target.value)} />
+                <textarea  placeholder='message here...' value={message} onChange={e => setMessage(e.target.value)}/>
+                <button>Send Message</button>
             </form>
-            <button>Download CV</button>
-
         </div>
     );
 }

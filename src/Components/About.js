@@ -6,8 +6,11 @@ const About = () => {
                <div className="flex">
                     <section className="content">
                         <h2>INFORMATION ABOUT ME</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet labore nihil obcaecati consequatur. Debitis error doloremque, vero eos vel nemo eius voluptatem dicta tenetur modi.</p>
-                        <p>La musica delectus dolore fugiat exercitationem a, ipsum quidem quo enim natus accusamus labore dolores nam. Unde. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum non necessitatibus deleniti eum soluta.</p>
+                        <article>
+                            <h3>Education</h3>
+                            <p>B.TECH Applied Geophysics <br/> @: Federal University of Technology, Akure</p>
+                            <p>La musica delectus dolore fugiat exercitationem a, ipsum quidem quo enim natus accusamus labore dolores nam. Unde. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum non necessitatibus deleniti eum soluta.</p>
+                        </article>
                     </section>
                     <ul className="cards">
                         <div>
