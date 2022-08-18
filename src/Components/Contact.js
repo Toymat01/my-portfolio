@@ -15,7 +15,7 @@ const Contact = () => {
               </div>
               <div>
                 <p>Email</p>
-                <p>:Toyheemat01@gmail.com</p>
+                <p>:Toyymat@gmail.com</p>
               </div>
               <div>
                   <p>Education</p>
@@ -27,10 +27,8 @@ const Contact = () => {
               </div>
            </div>
             <div className="socials">
-                <a href="http://facebook.com/toheebseun">facebook</a>
-                <a href="http://www.twitter.com/toymat"> twitter</a>
-                <a href="http://www.instagram.com/thegadgetsbro">instagram</a>
-                <a href="/k">snapchat</a>
+               <a href='https://github.com/Toymat01'>LinkedIn</a>
+               <a href="https://github.com/Toymat01">Github</a>
             </div>
             <form >
                 <input type="text" placeholder='YOUR NAME' />

@@ -53,9 +53,6 @@ const About = () => {
                         </ul>
                     </div>
                 </section>
-                <section className="timeline">
-                    <h2>MY TIME LINE</h2>
-                </section>
         </div>
     );
 }
