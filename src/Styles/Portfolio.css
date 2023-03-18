@@ -14,19 +14,22 @@
     text-align: center;
     padding-top:10px ;
     border-radius: 20px;
-    background-color:#27AE60 ;
     transform: scale(0.9);
     transition:all ease 0.6s;
-    opacity: 0;
+
 }
 .img h3:hover{
     opacity: 1;
     transform: scale(0.8);
     transition: ease 0.6s;
+    background-color: #27AE60;
 }
 img{
     border-radius: 20px;
     width: 30em;
+}
+.img a{
+    color: #27AE60;
 }
 
 
@@ -54,16 +57,15 @@ img{
         bottom: 20px;
         font-size: 2em;
         padding-top: 50px;
-        background-color:#27AE60 ;
         border-radius: 20px;
         transform: scale(0.9);
         transition: all ease 0.6s;
-        opacity: 0;
     }
     .img h3:hover{
         opacity: 1;
         transform: scale(0.8);
         transition: ease 0.6s;
+        background-color: #27AE60;
     }
 }
 
@@ -78,6 +80,19 @@ img{
         width:250px;
         align-self: center;
         margin-bottom: 20px;
+    }
+    .img h3{
+        position: absolute;
+        top: -30px;
+        left: -10px;
+        bottom: -10px;
+        right: -10px;
+        text-align: center;
+        padding-top:30% ;
+        border-radius: 20px;
+        transform: scale(0.9);
+        transition:all ease 0.6s;
+        width:100%
     }
 }
 
@@ -101,7 +116,7 @@ img{
         text-align: center;
     }
     img{
-        /* width:300px; */
+        width:300px;
         align-self: center;
         margin-bottom: 20px;
     }
